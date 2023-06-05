@@ -1,5 +1,4 @@
 export const functionsDevfinance = {
-    //teste local
     setLocalStorange(key, value){
         return  window.localStorage.setItem(key, JSON.stringify(value)) 
     },
